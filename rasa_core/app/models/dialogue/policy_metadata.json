@@ -1,0 +1,67 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "technology",
+        "formOfEmployment",
+        "nameApplicant",
+        "jobTask",
+        "domain"
+      ]
+    },
+    "action_match_job_slots": {
+      "slots": [
+        "jobTask",
+        "domain",
+        "possibleDomains",
+        "possibleTasks",
+        "possibleTechnologies"
+      ]
+    },
+    "action_find_job": {
+      "slots": [
+        "jobs"
+      ]
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "action_show_technologies": {
+      "slots": []
+    },
+    "utter_youarewelcome": {
+      "slots": []
+    },
+    "utter_startSpeculativeApplication": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_set_all_possible_employments": {
+      "slots": [
+        "formOfEmployment"
+      ]
+    },
+    "utter_askTechnology": {
+      "slots": []
+    },
+    "utter_help": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.13.0a1",
+  "python": "3.6.7",
+  "max_histories": [
+    5,
+    null,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20181203-114727"
+}

@@ -1,0 +1,67 @@
+version: '3.0'
+
+services:
+  rasa_core:
+    image: rasa-core-hr
+    build:
+      context: ./rasa_core
+      dockerfile: Dockerfile
+    
+    ports:
+      - 5005:5005
+    # command:
+    #   - start
+    #   - --core
+    #   - app/models/dialogue
+    #   - -c
+    #   - socketio 
+    #   - --endpoints
+    #   - app/config/endpoints.yml
+    #   - -u
+    #   - default/current
+
+  rasa_nlu:
+    image: rasa-nlu-hr
+    build:
+      context: ./rasa_nlu
+      dockerfile: Dockerfile
+    # volumes:
+      # - ./app/models/nlu:/app/models
+      # - ./app/config:/app/config
+    # command:
+    #   - start
+    #   - --path
+    #   - app/models/nlu
+    #   - -c
+    #   - app/config/config_tensorflow.yml
+
+  action_server:
+    image: rasa-core-sdk-hr
+    build:
+      context: ./app/actions
+      dockerfile: Dockerfile
+    # volumes:
+      # - ./app/actions:/app/actions
+  
+  # mongo:
+  #   image: mongo
+  #   ports:
+  #     - 27017:27017
+  #   # environment:
+  #   #   MONGO_INITDB_ROOT_USERNAME: rasa
+  #   #   MONGO_INITDB_ROOT_PASSWORD: <PASSWORD>
+      
+  # mongo-express:
+  #   image: mongo-express
+  #   ports:
+  #     - 8081:8081
+    # environment:
+      # ME_CONFIG_MONGODB_ADMINUSERNAME: rasa
+      # ME_CONFIG_MONGODB_ADMINPASSWORD: <PASSWORD>
+
+  # node-express:
+  #   build: dialogue_log/backend/
+  #   ports:
+  #     - 4000:4000
+  #   links:
+  #     - mongo

@@ -1,0 +1,110 @@
+intents:
+  - start_dialogue
+  - enter_data
+  - thankyou
+  - goodbye
+  - greet
+  - find_job
+  - help
+  - ask_for_technologies
+  - confirm
+  - deny
+  - ask_speculative_application
+  - greet+find_job
+  - dontknow
+  - you_are_welcome
+
+entities:
+  - nameApplicant
+  - formOfEmployment
+  - technology
+  - domain
+  - jobTask
+
+slots:
+  nameApplicant:
+    type: text
+    initial_value: ""
+
+  jobs:
+    type: list
+
+  technology:
+    type: list
+
+  domain:
+    type: list
+  
+  jobTask:
+    type: list
+
+  formOfEmployment:
+    type: list
+
+  possibleTasks:
+    type: unfeaturized
+
+  possibleDomains:
+    type: unfeaturized
+
+  possibleTechnologies:
+    type: unfeaturized
+
+actions:
+- action_find_job
+- action_match_job_slots
+- action_show_technologies
+- action_set_all_possible_employments
+- utter_greet
+- utter_bye
+- utter_youarewelcome
+- utter_askJobTask
+- utter_askTechnology
+- utter_askDomain
+- utter_askFormOfEmployment
+- utter_help
+- utter_askSpeculativeApplication
+- utter_startSpeculativeApplication
+
+templates:
+  utter_default:
+    - text: "Tut mir Leid, das muss ich noch lernen. Kannst du das bitte noch einmal anders formulieren?"
+
+  utter_greet:
+    - text: "Hallo! Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden. Dazu würde ich dir gerne ein paar Fragen stellen."
+
+  utter_bye:
+    - text: "Bis bald {nameApplicant}"
+
+  utter_youarewelcome:
+    - text: "Das hab ich gerne für dich gemacht {nameApplicant}"
+
+  utter_askTechnology:
+    - text: "Welche Technologien würdest du gerne einsetzen?"
+
+  utter_askJobTask:
+    - text: "Welche Tätigkeit möchtest du bei uns ausführen?"
+
+  utter_askDomain:
+    - text: "Für welches Fachgebiet interessiert du dich am meisten?"
+
+  utter_askFormOfEmployment:
+    - text: "In welchem Beschäftigungsverhältnis würdest du gerne bei uns arbeiten?"
+      buttons:
+      - title: "Vollzeit"
+        payload: '/enter_data{"formOfEmployment": "vollzeit"}'
+      - title: "Teilzeit"
+        payload: '/enter_data{"formOfEmployment": "teilzeit"}'
+      - title: "Werkstudent"
+        payload: '/enter_data{"formOfEmployment": "werkstudent"}'
+      - title: "Praktikum"
+        payload: '/enter_data{"formOfEmployment": "praktikum"}'
+  
+  utter_askSpeculativeApplication:
+    - text: "Leider kann ich für deine bisherigen Angaben keine offene Stelle finden. Möchtest du dich stattdessen initiativ bewerben?"
+
+  utter_help:
+    - text: "Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden. Dazu würde ich dir gerne ein paar Fragen stellen."
+  
+  utter_startSpeculativeApplication:
+    - text: "Sende deine Initiativbewerbung einfach per Mail an jobs@adorsys.de. Weitere Informationen findest du unter adorsys.de/karriere. Danke für das Testen dieses Prototypen! :)"

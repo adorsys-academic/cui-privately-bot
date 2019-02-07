@@ -1,0 +1,130 @@
+%YAML 1.1
+---
+actions:
+- action_find_job
+- action_match_job_slots
+- action_show_technologies
+- action_set_all_possible_employments
+- utter_greet
+- utter_bye
+- utter_youarewelcome
+- utter_askJobTask
+- utter_askTechnology
+- utter_askDomain
+- utter_askFormOfEmployment
+- utter_help
+- utter_askSpeculativeApplication
+- utter_startSpeculativeApplication
+config:
+  store_entities_as_slots: true
+entities:
+- nameApplicant
+- formOfEmployment
+- technology
+- domain
+- jobTask
+forms: []
+intents:
+- start_dialogue:
+    use_entities: true
+- enter_data:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- find_job:
+    use_entities: true
+- help:
+    use_entities: true
+- ask_for_technologies:
+    use_entities: true
+- confirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- ask_speculative_application:
+    use_entities: true
+- greet+find_job:
+    use_entities: true
+- dontknow:
+    use_entities: true
+- you_are_welcome:
+    use_entities: true
+slots:
+  domain:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  formOfEmployment:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  jobTask:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  jobs:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  nameApplicant:
+    auto_fill: true
+    initial_value: ''
+    type: rasa_core.slots.TextSlot
+  possibleDomains:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  possibleTasks:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  possibleTechnologies:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  technology:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+templates:
+  utter_askDomain:
+  - text: Für welches Fachgebiet interessiert du dich am meisten?
+  utter_askFormOfEmployment:
+  - buttons:
+    - payload: '/enter_data{"formOfEmployment": "vollzeit"}'
+      title: Vollzeit
+    - payload: '/enter_data{"formOfEmployment": "teilzeit"}'
+      title: Teilzeit
+    - payload: '/enter_data{"formOfEmployment": "werkstudent"}'
+      title: Werkstudent
+    - payload: '/enter_data{"formOfEmployment": "praktikum"}'
+      title: Praktikum
+    text: In welchem Beschäftigungsverhältnis würdest du gerne bei uns arbeiten?
+  utter_askJobTask:
+  - text: Welche Tätigkeit möchtest du bei uns ausführen?
+  utter_askSpeculativeApplication:
+  - text: Leider kann ich für deine bisherigen Angaben keine offene Stelle finden.
+      Möchtest du dich stattdessen initiativ bewerben?
+  utter_askTechnology:
+  - text: Welche Technologien würdest du gerne einsetzen?
+  utter_bye:
+  - text: Bis bald {nameApplicant}
+  utter_default:
+  - text: Tut mir Leid, das muss ich noch lernen. Kannst du das bitte noch einmal
+      anders formulieren?
+  utter_greet:
+  - text: Hallo! Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu
+      finden. Dazu würde ich dir gerne ein paar Fragen stellen.
+  utter_help:
+  - text: Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden.
+      Dazu würde ich dir gerne ein paar Fragen stellen.
+  utter_startSpeculativeApplication:
+  - text: Sende deine Initiativbewerbung einfach per Mail an jobs@adorsys.de. Weitere
+      Informationen findest du unter adorsys.de/karriere. Danke für das Testen dieses
+      Prototypen! :)
+  utter_youarewelcome:
+  - text: Das hab ich gerne für dich gemacht {nameApplicant}

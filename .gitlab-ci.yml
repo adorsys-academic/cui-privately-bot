@@ -1,0 +1,65 @@
+variables:
+
+  # <GITLAB_REGISTRY_URL> and <OPENSHIFT_REGISTRY_URL> need to be set to the respective urls
+  
+  GITLAB_REGISTRY: "<GITLAB_REGISTRY_URL>"
+  OPENSHIFT_REGISTRY: "<OPENSHIFT_REGISTRY_URL>"
+
+  CORE_OPENSHIFT_IMAGE_NAME: "<OPENSHIFT_REGISTRY_URL>:443/hr-bot/rasa-core-hr"
+  NLU_OPENSHIFT_IMAGE_NAME: "<OPENSHIFT_REGISTRY_URL>:443/hr-bot/rasa-nlu-hr"
+  CORE_SDK_OPENSHIFT_IMAGE_NAME: "<OPENSHIFT_REGISTRY_URL>:443/hr-bot/rasa-core-sdk-hr"
+  FRONTEND_OPENSHIFT_IMAGE_NAME: "<OPENSHIFT_REGISTRY_URL>:443/hr-bot/chat-frontend"
+
+stages:
+  - deploy
+
+core-deploy:
+  stage: deploy
+  only:
+    - master
+  image: docker:latest
+  script:
+    - cp -R app rasa_core
+    - cd rasa_core
+    - docker login -u openshift -p $OPENSHIFT_TOKEN $OPENSHIFT_REGISTRY
+    - docker pull $CORE_OPENSHIFT_IMAGE_NAME:latest || true # for cache
+    - docker build --cache-from $CORE_OPENSHIFT_IMAGE_NAME:latest -t $CORE_OPENSHIFT_IMAGE_NAME:latest .
+    - docker push $CORE_OPENSHIFT_IMAGE_NAME:latest
+
+nlu-deploy:
+  stage: deploy
+  only:
+    - master
+  image: docker:latest
+  script:
+    - cp -R app rasa_nlu
+    - cp -R app/models/nlu rasa_nlu/app/models
+    - cd rasa_nlu
+    - docker login -u openshift -p $OPENSHIFT_TOKEN $OPENSHIFT_REGISTRY
+    - docker pull $NLU_OPENSHIFT_IMAGE_NAME:latest || true # for cache
+    - docker build --cache-from $NLU_OPENSHIFT_IMAGE_NAME:latest -t $NLU_OPENSHIFT_IMAGE_NAME:latest .
+    - docker push $NLU_OPENSHIFT_IMAGE_NAME:latest
+
+core-sdk-deploy:
+  stage: deploy
+  only:
+    - master
+  image: docker:latest
+  script:
+    - cd app/actions
+    - docker login -u openshift -p $OPENSHIFT_TOKEN $OPENSHIFT_REGISTRY
+    - docker pull $CORE_SDK_OPENSHIFT_IMAGE_NAME:latest || true # for cache
+    - docker build --cache-from $CORE_SDK_OPENSHIFT_IMAGE_NAME:latest -t $CORE_SDK_OPENSHIFT_IMAGE_NAME:latest .
+    - docker push $CORE_SDK_OPENSHIFT_IMAGE_NAME:latest
+
+# chatbot-frontend-deploy:
+#   stage: deploy
+#   only:
+#     - master
+#   image: docker:latest
+#   script:
+#     - cd app/static
+#     - docker login -u openshift -p $OPENSHIFT_TOKEN $OPENSHIFT_REGISTRY
+#     - docker pull $FRONTEND_OPENSHIFT_IMAGE_NAME:latest || true # for cache
+#     - docker build --cache-from $FRONTEND_OPENSHIFT_IMAGE_NAME:latest -t $FRONTEND_OPENSHIFT_IMAGE_NAME:latest .
+#     - docker push $FRONTEND_OPENSHIFT_IMAGE_NAME:latest

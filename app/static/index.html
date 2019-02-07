@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HR Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="karriere bg-primary" id="karriere">
+        <div class="wrapper">
+            <header class="content-headline">
+                <br><br>
+                <h2 class="title border-bottom">Wir suchen dich</h2>
+                <p>Hier könnte weiterer Text stehen. Zum Beispiel eine kleine Beschreibung über die Funktion des
+                    Chatbots.</p>
+                <div id="webchat" />
+            </header>
+        </div>
+    </section>
+    <script src="https://storage.googleapis.com/mrbot-cdn/webchat-0.4.0.js"></script>
+
+    <script>
+        WebChat.default.init({
+            selector: "#webchat",
+            initPayload: "/start_dialogue",
+            socketUrl: "http://localhost:5005",
+            title: "HR Chatbot",
+            profileAvatar: "chatbot.png",
+            showCloseButton: true,
+            fullScreenMode: true
+        })
+    </script>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HR Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <section class="karriere bg-primary" id="karriere">
+        <div class="wrapper">
+            <header class="content-headline">
+                <br><br>
+                <h2 class="title border-bottom">Wir suchen dich</h2>
+                <p><strong>Aufgabe:</strong> Suche nach deiner Stelle oder der Stelle eines Kollegen im Unternehmen</p>
+                <div id="webchat" />
+            </header>
+        </div>
+    </section>
+    <div class="chat-container"></div>
+
+    <!-- <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js" /> -->
+    <script src="./chatroom.js"></script>
+    <script type="text/javascript">
+        var chatroom = window.Chatroom({
+            host: "<LINK_TO_RASA_CORE_URL>",
+            title: "HR-Chatbot",
+            container: document.querySelector(".chat-container"),
+            welcomeMessage: "Hallo! Wie kann ich dir behilflich sein? Gerne helfe ich dir beim Finden einer für dich passenden Stelle",
+            speechRecognition: "de-DE"
+        });
+
+        chatroom.openChat();
+    </script>
+
+</body>
+
+</html>

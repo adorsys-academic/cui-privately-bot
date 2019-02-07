@@ -1,0 +1,27 @@
+<div class="container">
+
+  <div class="row">
+    <div *ngFor="let conversation of conversations">
+      <h3>Conversation #{{conversations.indexOf(conversation)}}</h3>
+      <div class="card-body">
+        <!-- <p class="card-text">{{ conversation.sender_id }}</p> -->
+        <div *ngFor="let event of conversation.events">
+          <div *ngIf="event.name != null">
+            <div class="card-text" *ngIf="event.event == 'user'"><span class="font-weight-bold">User said: </span> {{
+              event.name }}</div>
+            <p class="card-text" *ngIf="event.event == 'action'">Bot did: {{ event.name }}</p>
+          </div>
+          <div *ngIf="event.text != null">
+            <!-- <p class="card-text">Text: {{ event.text }}</p> -->
+            <p class="card-text" *ngIf="event.event == 'bot'">Bot said: {{ event.text }}</p>
+            <p class="card-text" *ngIf="event.event == 'user'">User said: {{ event.text }}</p>
+          </div>
+          <br>
+        </div>
+        <button (click)="deleteConversation(conversation._id)">Delete</button>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+</div>

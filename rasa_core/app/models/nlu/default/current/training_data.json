@@ -1,0 +1,7606 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "start_dialogue",
+        "text": "start_dialogue"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Hans",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Hans."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 45,
+            "end": 51,
+            "value": "Janina",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Sehr geehrte Damen und Herren, mein Name ist Janina."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Lukas",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Lukas."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "Alex",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Morgen, ich bin der Alex"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Fati",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Abend, mein Name ist Fati."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Daniel",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Daniel."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Laura",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo Chatbot, ich heiße Laura und freue mich mich heute bei Dir vorstellen zu dürfen."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Corinna",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo ich bin Corinna und bin auf eure ausgeschriebenen Stellen aufmerksam geworden."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Christof",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Christof und ich würde mich gerne auf eine Stelle bewerben."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Marcel",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi Bot, ich bin Marcel. Ich würde mich gerne bei euch bewerben."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Korbinian",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Korbinian. Ich würde mich gerne auf eine Stelle bewerben"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "Mark",
+            "entity": "nameApplicant"
+          },
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Hallo mein Name ist Mark und ich suche einen Job als Werkstudent"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 46,
+            "end": 53,
+            "value": "Melissa",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Sehr geehrte Damen und Herren, meine Name ist Melissa."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Stephanie",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Stephanie."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Conny",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo! Mein Name ist Conny"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Nick",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Nick."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Sabine",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Sabine."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Laurenz",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin der Laurenz."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Martin",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, hier ist Martin."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "Tim",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin Tim"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "Max",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Servus, ich bin der Max"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Caroline",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Mein Name ist Caroline und bin 27 Jahre alt."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Susanne",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin Susanne."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Almut",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Almut."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Julian",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Julian. Ich bin 24 Jahre alt"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Daniel",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Daniel"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Judith",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Morgen, mein Name ist Judith"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Abend, ich bin Stefanie"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 45,
+            "end": 49,
+            "value": "Mona",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Sehr geehrte Damen und Herren, mein Name ist Mona"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Manuel",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich heiße Manuel"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Stefan",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Stefan"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Carina",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Ich heiße Carina"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Marco",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin Marco"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Peter",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Peter"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Tag"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Morgen"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Abend"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Stefan",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Stefan."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Stefanie",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Liebes Team, mein Name ist Stefanie. Ich interessiere mich sehr für Ihre Firma und würde mich freuen, ein Teil ihres Teams zu werden!"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "Lisa",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin die Lisa."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Christian",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Christian."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Johanna",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Servus, ich bin die Johanna."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Theresia",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin Theresia. Ich bin 22 Jahre alt und komme aus Jena."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "Anna",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Morgen! Mein Name ist Anna und ich bin nach meinem Studium auf der Suche nach einem Job."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "Jan",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo! Mein Name ist Jan und ich melde mich, weil ich auf der Suche nach einem Job bin."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Marco",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Mein Name ist Marco und ich würde mich gerne bewerben."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "Jonas",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, ich bin Jonas. Auf der Suche nach einem Job bin ich auf euere Seite gelangt."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "Anna",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Morgen! Mein Name ist Anna und ich bin nach meinem Studium auf der Suche nach einem Job."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "Jan",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo! Mein Name ist Jan und ich melde mich, weil ich auf der Suche nach einem Job bin."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Sebastian",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hey, ich bin der Sebastian, 30 Jahre alt und komme aus dem schönen Alpenvorland."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Elise",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Liebes Team, mein Name ist Elise"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Ferdinand",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Moin. Ich bin der Ferdinand, Bachelor-Student im Fach Public Relations und auf der Suche nach einem Job ab sofort."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Lauren",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Lieber Bot, ich bin die Lauren und bin Studentin im Fach Mathematik."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Madeleine",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin die Madeleine"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 46,
+            "end": 53,
+            "value": "Sibylle",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Sehr geehrte Damen und Herren, meine Name ist Sibylle. Ich bin 25 Jahre alt und Studentin"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Ana-Maria",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo! :) Ich bin die Ana-Maria. Ich würde mich gerne über offene Stellen in Ihrem Unternehmen erkundigen."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Christian",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Christian."
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Theresa",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Theresa. Ich würde mich gerne bei Ihnen vorstellen."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Johann",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin Johann"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Kristina",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Kristina. Ich bin auf der Suche nach einer Stelle."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Patrick",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin Patrick"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Roman",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Roman und würde mich gerne bei Ihnen vorstellen."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Timo",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, mein Name ist Timo"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Benedict",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Benedict und ich interessiere mich für eine Stelle in Ihrem Unternehmen."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Petra",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag. Ich heiße Petra."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Robin",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin Robin"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "Adam",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Servus, ich bin der Adam"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Larissa",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Larissa"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Abnet",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Sehr geehrte Damen und Herren, ich heiße Abnet"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Annalena",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin die Annalena"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Bernhard",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Grüß euch, ich bin der Bernhard"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "Dean",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Dean"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Dominik",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin der Dominik. Nach Abschluss meines Bachelor-Studiums bin ich auf der Suche nach einem Job."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "Georg",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hey, ich bin der Georg. Ich bin 23 Jahre alt und komme aus Nürnberg"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Frizzi",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin Frizzi"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Klaus",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hey, ich bin Klaus."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Louisa",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Louisa."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "Maja",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo zusammen. Ich bin Maja"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Mario",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Morgen. Ich heiße Mario"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Rebecca",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin Rebecca"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "Sara",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin die Sara und würde mich gerne bei Ihnen bewerben."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "Simon",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hey, ich bin der Simon und komme aus einem kleinen Dorf in der Nähe von Berlin."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "Tami",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin die Tami"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Uli",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin der Uli."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Nino",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin Nino."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Stefan",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo ich bin Stefan"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Martina",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Martina."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Monika",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Monika."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Conny",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo! Mein Name ist Conny"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Joost",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin der Joost. Ich bin auf der Suche nach einer neuen Herausforderung."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Jose",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Jose"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Marc",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, mein Name ist Marc"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Michael",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Tag, mein Name ist Michael."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Stefan",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, ich bin Stefan"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Julia",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Guten Morgen, ich bin Julia."
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Nadine",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hi, ich bin die Nadine. Ich bin 22 Jahre alt"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Francis",
+            "entity": "nameApplicant"
+          }
+        ],
+        "text": "Hallo, mein Name ist Francis."
+      },
+      {
+        "intent": "find_job",
+        "text": "Könnten Sie mir Informationen über die bei Ihnen vakanten Positionen geben?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Welche offenen Stellen gibt es?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Gibt des derzeit freie Stellen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Sind Sie gerade auf der Suche nach neuen Mitarbeitern? Ich bin auf der Suche nach einem neuen Job."
+      },
+      {
+        "intent": "find_job",
+        "text": "Gibt es offene Stellen in Ihrem Unternehmen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Welche Stellen sind derzeit zu besetzen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Bitte zeig mir offene Stellen an."
+      },
+      {
+        "intent": "find_job",
+        "text": "Kannst du mir alle Stellen zeigen, die zur Zeit offen sind?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Können Sie mir offene Stellen in ihrer Firma zeigen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde gerne wissen, welche Jobs im Moment zu besetzen sind."
+      },
+      {
+        "intent": "find_job",
+        "text": "Haben sie offene Stellen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Zeigen sie mir offene Stellen."
+      },
+      {
+        "intent": "find_job",
+        "text": "Zeig mir doch bitte alle zu besetzenden Stellen an."
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich möchte gerne in Erfahrung bringen, ob es gerade offene Stellen gibt."
+      },
+      {
+        "intent": "find_job",
+        "text": "Welche Möglichkeit in ihrer Firma zu arbeiten gibt es zur Zeit?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich interessiere mich für offene Stellenanzeigen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 56,
+            "end": 71,
+            "value": "PraktikantInnen",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich möchte gerne in Erfahrung bringen, ob Sie denn noch PraktikantInnen aufnehmen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 36,
+            "end": 48,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich würde gerne wissen, ob zur Zeit Praktikanten gesucht werden."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Sind Stellen für Praktikanten zu besetzen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "Praktikant",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es offene Stellen als Praktikant?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Werden im Moment Werkstudenten gesucht?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 51,
+            "end": 59,
+            "value": "Teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Welche Positionen sind gerade offen eine Stelle in Teilzeit?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Bieten sie Stellen für Praktikanten an?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ist es möglich bei Ihnen ein Praktikum zu absolvieren?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 35,
+            "end": 48,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Sind Sie gerade auf der Suche nach Werkstudenten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es die Möglichkeit bei Ihnen ein Praktikum zu absolvieren?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Kann man bei Ihnen als Werkstudent arbeiten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 38,
+            "end": 51,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Besteht bei Ihnen im Moment Bedarf an Werkstudenten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Habt ihr Stellen für Werkstudenten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Welche Möglichkeit habe ich als Werkstudent in ihrem Unternehmen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 42,
+            "end": 54,
+            "value": "Werksstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich interessiere mich für eine Stelle als Werksstudent bei ihrer Firma. Wie kann ich mich auf diese Stelle bewerben?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich interessiere mich für ein Praktikum in Ihrem Unternehmen"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 70,
+            "end": 84,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Durch meinen Abschluss des Studiums bin ich nun interessiert an einer Festanstellung in Ihrer Firma."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich hätte großes Interesse an einem Praktikum in Ihrem Unternehmen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es freie Stellen für Praktikanten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 41,
+            "end": 53,
+            "value": "Werksstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich würde mich gerne auf eine Stelle als Werksstudent bewerben. Welche Möglichkeiten habe ich im Moment in ihrem Unternehmen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 42,
+            "end": 61,
+            "value": "Werkstudentenstelle",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich bin momentan auf der Suche nach einer Werkstudentenstelle. Welche Möglichkeiten habe ich denn dafür in eurer Firma?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 52,
+            "end": 65,
+            "value": "Werkstudentin",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Konkret bin ich auf der Suche nach einer Stelle als Werkstudentin. Ich befinde mich gerade im 6 Semester meines Studiums und bin auf der Suche nach einer neuen Herausforderung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 55,
+            "end": 70,
+            "value": "Praktikumsplatz",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich bin gerade auf der Suche nach einem sechsmonatigen Praktikumsplatz."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 39,
+            "end": 50,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich habe Interesse an einer Stelle als Werkstudent."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 53,
+            "end": 66,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich hätte gerne Informationen zu offenen Stellen für Werkstudenten."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 24,
+            "end": 41,
+            "value": "Praktikumsstellen",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Werden in nächster Zeit Praktikumsstellen besetzt?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 23,
+            "end": 42,
+            "value": "Praktikantenstellen",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es aktuell offene Praktikantenstellen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "Praktikant",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Haben Sie eine Stelle als Praktikant zu Verfügung?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 71,
+            "end": 101,
+            "value": "Conversational User Interfaces",
+            "entity": "technology"
+          }
+        ],
+        "text": "Mich würde interessieren, ob ich in Ihrem Unternehmen in der Abteilung Conversational User Interfaces meine Fähigkeiten unter Beweis stellen kann."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 43,
+            "end": 54,
+            "value": "Controlling",
+            "entity": "technology"
+          }
+        ],
+        "text": "Haben Sie derzeit freie Stellen im Bereich Controlling?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 36,
+            "end": 53,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Haben sie offene Stellen im Bereich Projektmanagement?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 20,
+            "end": 38,
+            "value": "Softwareentwickler",
+            "entity": "jobTask"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "Web",
+            "entity": "domain"
+          }
+        ],
+        "text": "Gibt es Stellen für Softwareentwickler Web?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 28,
+            "end": 50,
+            "value": "Künstliche Intelligenz",
+            "entity": "domain"
+          }
+        ],
+        "text": "Habt ihr Stellen im Bereich Künstliche Intelligenz?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 36,
+            "end": 48,
+            "value": "Data Science",
+            "entity": "domain"
+          }
+        ],
+        "text": "Wie sieht es mit Stellen im Bereich Data Science aus?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 63,
+            "end": 76,
+            "value": "Personalwesen",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich würde gerne bei Ihnen arbeiten. Ist eine Stelle im Bereich Personalwesen noch verfügbar?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 43,
+            "end": 53,
+            "value": "Consulting",
+            "entity": "domain"
+          }
+        ],
+        "text": "Hiermit bewerbe ich mich um eine Stelle im Consulting in Ihrem Unternehmen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 46,
+            "end": 64,
+            "value": "iOS-Programmierung",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich würde mich gerne auf eine Position in der iOS-Programmierung bewerben."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Marketing",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich würde gerne wissen, ob es Stellen im Bereich des Marketing gibt."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "Controlling",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich würde gerne eine Stelle im Controlling besetzen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 38,
+            "end": 53,
+            "value": "Testing",
+            "entity": "domain"
+          }
+        ],
+        "text": "Werden in nächster Zeit Positionen im Testing-Bereich besetzt?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 41,
+            "end": 56,
+            "value": "iOS-Entwicklung",
+            "entity": "technology"
+          },
+          {
+            "start": 65,
+            "end": 82,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich interessiere mich für Stellen in der iOS-Entwicklung oder im Projektmanagement."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 48,
+            "end": 66,
+            "value": "Backend-Entwickler",
+            "entity": "domain"
+          }
+        ],
+        "text": "Können Sie mir aufzeigen, welche Stellen es für Backend-Entwickler gibt? Ich suche einen Job zum nächstmöglichen Zeitpunkt."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 93,
+            "end": 112,
+            "value": "Android-Entwicklung",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich bin auf Ihr Angebot aufmerksam geworden und interessiere mich für eine Stelle im Bereich Android-Entwicklung"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 59,
+            "end": 76,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich interessiere mich besonders für eine Stelle im Bereich Projektmanagement."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "Controlling",
+            "entity": "domain"
+          }
+        ],
+        "text": "Welche Stellen im Bereich Controlling gibt es?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "iOS-Development",
+            "entity": "technology"
+          }
+        ],
+        "text": "Welche Stellen im iOS-Development sind zu besetzen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 41,
+            "end": 59,
+            "value": "Softwareentwickler",
+            "entity": "jobTask"
+          },
+          {
+            "start": 60,
+            "end": 67,
+            "value": "Backend",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich bin auf der Suche nach einem Job als Softwareentwickler Backend."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 35,
+            "end": 53,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich suche einen Job im Bereich des Projektmanagements."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 82,
+            "end": 98,
+            "value": "Machine Learning",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich würde mich gerne bei Ihnen über meine Möglichkeiten in ihrer Firma im Bereich Machine Learning informieren."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 31,
+            "end": 47,
+            "value": "Machine-Learning",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich suche einen Job im Bereich Machine-Learning ab sofort"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "KI",
+            "entity": "domain"
+          }
+        ],
+        "text": "Können Sie Jobs im Bereich KI anbieten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "Human Ressources",
+            "entity": "domain"
+          }
+        ],
+        "text": "Wie sieht es mit Stellen im Bereich Human Ressources aus?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 45,
+            "value": "Softwareentwickler",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Was muss ich tun, wenn ich Softwareentwickler werden möchte?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 66,
+            "end": 77,
+            "value": "Buchhaltung",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich wollte fragen, ob in Ihrem Unternehmen eine Stelle im Bereich Buchhaltung vakant ist?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "Webentwicklung",
+            "entity": "domain"
+          },
+          {
+            "start": 46,
+            "end": 58,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Können Sie Jobs im Bereich Webentwicklung für Praktikanten anbieten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 49,
+            "end": 69,
+            "value": "Software Development",
+            "entity": "jobTask"
+          },
+          {
+            "start": 73,
+            "end": 87,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich interessiere mich für eine Stelle im Bereich Software Development in Festanstellung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 36,
+            "end": 47,
+            "value": "Finanzwesen",
+            "entity": "domain"
+          },
+          {
+            "start": 51,
+            "end": 65,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Wie sieht es mit Stellen im Bereich Finanzwesen in Festanstellung aus?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "Development",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich suche nach einer Festanstellung im Bereich Development. Habt ihr eine solche oder ähnliche Stelle offen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 26,
+            "end": 42,
+            "value": "Frontend-Bereich",
+            "entity": "domain"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es offene Stellen im Frontend-Bereich als Werkstudent?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Design",
+            "entity": "jobTask"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "Praktikant",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es Stellen im Bereich Design als Praktikant ?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Marketing",
+            "entity": "domain"
+          }
+        ],
+        "text": "Wäre es möglich, als Werkstudent im Marketing zu arbeiten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Praktikant",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "Mobile",
+            "entity": "domain"
+          },
+          {
+            "start": 54,
+            "end": 66,
+            "value": "Developments",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Wäre es möglich, als Praktikant im Bereich des Mobile Developments zu arbeiten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 35,
+            "end": 52,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "value": "Studenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es Stellenanzeigen im Bereich Projektmanagement für Studenten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 38,
+            "end": 51,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 63,
+            "end": 78,
+            "value": "iOS-Entwicklung",
+            "entity": "technology"
+          }
+        ],
+        "text": "Besteht bei Ihnen im Moment Bedarf an Werkstudenten im Bereich iOS-Entwicklung?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 38,
+            "end": 50,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 54,
+            "end": 60,
+            "value": "Design",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Besteht bei Ihnen im Moment Bedarf an Praktikanten im Design?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 31,
+            "end": 52,
+            "value": "mobile",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich würde gerne im Bereich von Mobilen Applikationen arbeiten."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 35,
+            "end": 42,
+            "value": "Testing",
+            "entity": "domain"
+          },
+          {
+            "start": 47,
+            "end": 60,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Gibt es Stellenanzeigen im Bereich Testing für Werkstudenten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 53,
+            "end": 65,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 73,
+            "end": 92,
+            "value": "Softwareentwicklung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich hätte gerne Informationen zu offenen Stellen für Praktikanten in der Softwareentwicklung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 42,
+            "end": 52,
+            "value": "HR-Bereich",
+            "entity": "domain"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "Teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Kannst du mir Informationen zu Stellen im HR-Bereich in Teilzeit geben?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 47,
+            "end": 67,
+            "value": "Software-Entwicklung",
+            "entity": "jobTask"
+          },
+          {
+            "start": 71,
+            "end": 85,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Können Sie mir Informationen zu Stellen in der Software-Entwicklung in Festanstellung geben?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 63,
+            "end": 78,
+            "value": "Web-Entwicklung",
+            "entity": "domain"
+          }
+        ],
+        "text": "Haben Sie Informationen zu Stellen für Praktikanten im Bereich Web-Entwicklung"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 44,
+            "end": 61,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          },
+          {
+            "start": 66,
+            "end": 79,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich hätte gerne Infos zu Stellen im Bereich Projektmanagement für Werkstudenten"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 45,
+            "end": 63,
+            "value": "Chatbot-Entwickler",
+            "entity": "technology"
+          },
+          {
+            "start": 67,
+            "end": 81,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich hätte Interesse an der freien Stelle als Chatbot-Entwickler in Festanstellung. Werden Sie diese Stelle besetzen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 34,
+            "end": 52,
+            "value": "Softwareentwickler",
+            "entity": "jobTask"
+          },
+          {
+            "start": 56,
+            "end": 70,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich habe Interesse an Stellen für Softwareentwickler in Festanstellung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 39,
+            "end": 58,
+            "value": "Softwareentwicklung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich würde gerne als Werkstudent in der Softwareentwicklung arbeiten."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 49,
+            "end": 58,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich würde mich dafür Interessieren bei Ihnen ein Praktikum zu machen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "Entwickler",
+            "entity": "jobTask"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "value": "CUI",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich bin interessiert als Entwickler im Bereich CUI zu arbeiten. Haben Sie dafür eine zu besetzende Stelle frei?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "scrum",
+            "entity": "technology"
+          },
+          {
+            "start": 52,
+            "end": 66,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich würde gerne als ScrumMaster anfangen. Mit einer Festanstellung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "Werkstudentenstellen",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 49,
+            "end": 63,
+            "value": "Webentwicklung",
+            "entity": "domain"
+          }
+        ],
+        "text": "Werden in nächster Zeit Werkstudentenstellen für Webentwicklung besetzt?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 33,
+            "end": 47,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich bin auf der Suche nach einer Festanstellung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 59,
+            "end": 74,
+            "value": "Abschlussarbeit",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 86,
+            "end": 89,
+            "value": "iOS",
+            "entity": "technology"
+          },
+          {
+            "start": 90,
+            "end": 104,
+            "value": "Programmierung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich bin auf der Suche für eine Stelle zum Schreiben meiner Abschlussarbeit im Bereich iOS Programmierung für das kommende Semester"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 42,
+            "end": 53,
+            "value": "Controlling",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ist es möglich als Werkstudent im Bereich Controlling im Unternehmen zu arbeiten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 44,
+            "end": 62,
+            "value": "Softwareentwickler",
+            "entity": "jobTask"
+          },
+          {
+            "start": 66,
+            "end": 80,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich bin auf der Suche nach einer Stelle als Softwareentwickler in Festanstellung"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 41,
+            "end": 43,
+            "value": "HR",
+            "entity": "domain"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "value": "Teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich bin auf der Suche nach einem Job als HR Business Partner in Teilzeit"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 42,
+            "end": 53,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 65,
+            "end": 71,
+            "value": "Design",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Wäre es möglich bei euch in der Firma als Werkstudent im Bereich Design zu arbeiten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 33,
+            "end": 47,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 65,
+            "end": 76,
+            "value": "Controlling",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich bin auf der Suche nach einer Festanstellung in der Abteilung Controlling."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 43,
+            "end": 62,
+            "value": "Softwareentwicklung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Kann ich bei euch ein Praktikum im Bereich Softwareentwicklung absolvieren?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 47,
+            "end": 66,
+            "value": "Softwareentwicklung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich bin an einer Stelle als Werkstudent in der Softwareentwicklung interessiert und würde mich hierfür gerne bewerben."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 66,
+            "end": 80,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 45,
+            "end": 62,
+            "value": "Projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich bin interessiert an einem Job im Bereich Projektmanagement in Festanstellung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 95,
+            "end": 101,
+            "value": "Mobile",
+            "entity": "domain"
+          },
+          {
+            "start": 102,
+            "end": 113,
+            "value": "Entwicklung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Könnte ich als Werkstudent in ihrer Firma arbeiten? Am liebste wäre mir eine Stelle im Bereich Mobile Entwicklung."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 31,
+            "end": 47,
+            "value": "Teilzeit-Stellen",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 55,
+            "end": 66,
+            "value": "Entwicklung",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Kannst du mir Informationen zu Teilzeit-Stellen in der Entwicklung geben?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 54,
+            "end": 61,
+            "value": "Trainee",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 73,
+            "end": 81,
+            "value": "Finanzen",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich interessiere mich insbesondere für die Stelle als Trainee im Bereich Finanzen."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 25,
+            "end": 39,
+            "value": "iOS-Entwickler",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich würde mich gerne als iOS-Entwickler bewerben."
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich bin auf eure ausgeschriebenen Stellen aufmerksam geworden"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde mich gerne bei euch bewerben"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde mich gerne auf eine Stelle bewerben."
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich suche einen Job als Werkstudent"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich interessiere mich sehr für Ihre Firma und würde mich freuen, ein Teil ihres Teams zu werden!"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich bin nach meinem Studium auf der Suche nach einem Job."
+      },
+      {
+        "intent": "find_job",
+        "text": "Auf der Suche nach einem Job bin ich auf euere Seite gelangt."
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich bin auf der Suche nach einer neuen Herausforderung."
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "npm"
+          }
+        ],
+        "text": "npm"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "domain",
+            "start": 0,
+            "value": "Fullstack"
+          }
+        ],
+        "text": "Fullstack"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 0,
+            "value": "Softwarearchitektur"
+          }
+        ],
+        "text": "Softwarearchitektur"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "CSS"
+          }
+        ],
+        "text": "CSS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Prozessdesign"
+          }
+        ],
+        "text": "Prozessdesign"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Businessanalyse"
+          }
+        ],
+        "text": "Businessanalyse"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 0,
+            "value": "Software Testing"
+          }
+        ],
+        "text": "Software Testing"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "domain",
+            "start": 0,
+            "value": "Agile"
+          }
+        ],
+        "text": "Agile"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Sketch"
+          }
+        ],
+        "text": "Sketch"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 0,
+            "value": "Personalverwaltung"
+          }
+        ],
+        "text": "Personalverwaltung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Build Tools"
+          }
+        ],
+        "text": "Build Tools"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 0,
+            "value": "scikit-learn"
+          }
+        ],
+        "text": "scikit-learn"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "LESS"
+          }
+        ],
+        "text": "LESS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Watson"
+          }
+        ],
+        "text": "Watson"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "SQLite"
+          }
+        ],
+        "text": "SQLite"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 0,
+            "value": "Systemadministration"
+          }
+        ],
+        "text": "Systemadministration"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Gantt"
+          }
+        ],
+        "text": "Gantt"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Alexa"
+          }
+        ],
+        "text": "Alexa"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Azure"
+          }
+        ],
+        "text": "Azure"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "domain",
+            "start": 0,
+            "value": "Frontend"
+          }
+        ],
+        "text": "Frontend"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "SASS"
+          }
+        ],
+        "text": "SASS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 0,
+            "value": "Strategieberatung"
+          }
+        ],
+        "text": "Strategieberatung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Rasa"
+          }
+        ],
+        "text": "Rasa"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Steuerrecht"
+          }
+        ],
+        "text": "Steuerrecht"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "domain",
+            "start": 0,
+            "value": "Web"
+          }
+        ],
+        "text": "Web"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 0,
+            "value": "Testautomatisierung"
+          }
+        ],
+        "text": "Testautomatisierung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 0,
+            "value": "Prozessanalyse"
+          }
+        ],
+        "text": "Prozessanalyse"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 0,
+            "value": "Natural Language Understanding"
+          }
+        ],
+        "text": "Natural Language Understanding"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Unit Tests"
+          }
+        ],
+        "text": "Unit Tests"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "End-to-End-Test"
+          }
+        ],
+        "text": "End-to-End-Test"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Verschlüsselung"
+          }
+        ],
+        "text": "Verschlüsselung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Clustering"
+          }
+        ],
+        "text": "Clustering"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "MongoDB"
+          }
+        ],
+        "text": "MongoDB"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Konfigurationsmanagement"
+          }
+        ],
+        "text": "Konfigurationsmanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "domain",
+            "start": 0,
+            "value": "DevOps"
+          }
+        ],
+        "text": "DevOps"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Design Thinking"
+          }
+        ],
+        "text": "Design Thinking"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 0,
+            "value": "Arbeitsrecht"
+          }
+        ],
+        "text": "Arbeitsrecht"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Dialogflow"
+          }
+        ],
+        "text": "Dialogflow"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Teststrategie"
+          }
+        ],
+        "text": "Teststrategie"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Projektplan"
+          }
+        ],
+        "text": "Projektplan"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 0,
+            "value": "InDesign"
+          }
+        ],
+        "text": "InDesign"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "domain",
+            "start": 0,
+            "value": "Personal"
+          }
+        ],
+        "text": "Personal"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Mocha"
+          }
+        ],
+        "text": "Mocha"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "Vue"
+          }
+        ],
+        "text": "Vue"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "php"
+          }
+        ],
+        "text": "PHP"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          }
+        ],
+        "text": "Typescript"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "NOFS"
+          }
+        ],
+        "text": "NOFS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Android"
+          }
+        ],
+        "text": "Android"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Accessibility"
+          }
+        ],
+        "text": "Accessibility"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "domain",
+            "start": 0,
+            "value": "Security"
+          }
+        ],
+        "text": "Security"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Word"
+          }
+        ],
+        "text": "Word"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 0,
+            "value": "Continuous Deployment"
+          }
+        ],
+        "text": "Continuous Deployment"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 0,
+            "value": "Bewerbermanagement"
+          }
+        ],
+        "text": "Bewerbermanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          }
+        ],
+        "text": "Java"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Usability"
+          }
+        ],
+        "text": "Usability"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 0,
+            "value": "Integrationstest"
+          }
+        ],
+        "text": "Integrationstest"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Excel"
+          }
+        ],
+        "text": "Excel"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "CouchDB"
+          }
+        ],
+        "text": "CouchDB"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "OpenShift"
+          }
+        ],
+        "text": "OpenShift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 0,
+            "value": "InVision"
+          }
+        ],
+        "text": "InVision"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "domain",
+            "start": 0,
+            "value": "Testing"
+          }
+        ],
+        "text": "Testing"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "TensorFlow"
+          }
+        ],
+        "text": "TensorFlow"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          }
+        ],
+        "text": "Kotlin"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "domain",
+            "start": 0,
+            "value": "Backend"
+          }
+        ],
+        "text": "Backend"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Node.js"
+          }
+        ],
+        "text": "Node.js"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "PostgreSQL"
+          }
+        ],
+        "text": "PostgreSQL"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "domain",
+            "start": 0,
+            "value": "Mobile"
+          }
+        ],
+        "text": "Mobile"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Sozialversicherungsrecht"
+          }
+        ],
+        "text": "Sozialversicherungsrecht"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kanban"
+          }
+        ],
+        "text": "Kanban"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Buchhaltung"
+          }
+        ],
+        "text": "Buchhaltung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "arc42"
+          }
+        ],
+        "text": "arc42"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 0,
+            "value": "Workshop"
+          }
+        ],
+        "text": "Workshop"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "React"
+          }
+        ],
+        "text": "React"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "domain",
+            "start": 0,
+            "value": "Finanzen"
+          }
+        ],
+        "text": "Finanzen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 0,
+            "value": "Systemintegration"
+          }
+        ],
+        "text": "Systemintegration"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Python"
+          }
+        ],
+        "text": "Python"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          }
+        ],
+        "text": "Photoshop"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "technology",
+            "start": 0,
+            "value": "C#"
+          }
+        ],
+        "text": "C#"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Weiterbildungsmanagement"
+          }
+        ],
+        "text": "Weiterbildungsmanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "domain",
+            "start": 0,
+            "value": "Recht"
+          }
+        ],
+        "text": "Recht"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Swift"
+          }
+        ],
+        "text": "Swift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 0,
+            "value": "Releasemanagement"
+          }
+        ],
+        "text": "Releasemanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 0,
+            "value": "Cucumber"
+          }
+        ],
+        "text": "Cucumber"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "iOS"
+          }
+        ],
+        "text": "iOS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "NoSQL"
+          }
+        ],
+        "text": "NoSQL"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photo"
+          }
+        ],
+        "text": "Photo"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 1,
+            "entity": "technology",
+            "start": 0,
+            "value": "C"
+          }
+        ],
+        "text": "C"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "jQuery"
+          }
+        ],
+        "text": "jQuery"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "domain",
+            "start": 0,
+            "value": "Business"
+          }
+        ],
+        "text": "Business"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Chai"
+          }
+        ],
+        "text": "Chai"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "domain",
+            "start": 0,
+            "value": "Machine Learning"
+          }
+        ],
+        "text": "Machine Learning"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 0,
+            "value": "Natural Language Processing"
+          }
+        ],
+        "text": "Natural Language Processing"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          }
+        ],
+        "text": "Angular"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Requirements engineering"
+          }
+        ],
+        "text": "Requirements engineering"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "domain",
+            "start": 0,
+            "value": "Data Science"
+          }
+        ],
+        "text": "Data Science"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 0,
+            "value": "Continuous Integration"
+          }
+        ],
+        "text": "Continuous Integration"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Buchführung"
+          }
+        ],
+        "text": "Buchführung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Office"
+          }
+        ],
+        "text": "Office"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          }
+        ],
+        "text": "HTML"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          }
+        ],
+        "text": "Javascript"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Illustrator"
+          }
+        ],
+        "text": "Illustrator"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Clustering"
+          },
+          {
+            "end": 31,
+            "entity": "technology",
+            "start": 16,
+            "value": "Design Thinking"
+          }
+        ],
+        "text": "Clustering oder Design Thinking"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 11,
+            "value": "Mocha"
+          }
+        ],
+        "text": "Kotlin und Mocha"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 0,
+            "value": "Software Testing"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 18,
+            "value": "iOS"
+          }
+        ],
+        "text": "Software Testing, iOS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 0,
+            "value": "Continuous Deployment"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 23,
+            "value": "Typescript"
+          },
+          {
+            "end": 52,
+            "entity": "technology",
+            "start": 35,
+            "value": "Releasemanagement"
+          }
+        ],
+        "text": "Continuous Deployment, Typescript, Releasemanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Node.js"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 8,
+            "value": "Usability"
+          }
+        ],
+        "text": "Node.js Usability"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "arc42"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 7,
+            "value": "Node.js"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 16,
+            "value": "Sketch"
+          }
+        ],
+        "text": "arc42, Node.js, Sketch"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "SQLite"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 8,
+            "value": "Controlling"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 21,
+            "value": "NOFS"
+          }
+        ],
+        "text": "SQLite, Controlling, NOFS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Python"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 8,
+            "value": "Office"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 16,
+            "value": "NOFS"
+          }
+        ],
+        "text": "Python, Office, NOFS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 0,
+            "value": "Natural Language Understanding"
+          },
+          {
+            "end": 36,
+            "entity": "technology",
+            "start": 32,
+            "value": "HTML"
+          },
+          {
+            "end": 43,
+            "entity": "technology",
+            "start": 38,
+            "value": "Azure"
+          }
+        ],
+        "text": "Natural Language Understanding, HTML, Azure"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 0,
+            "value": "InDesign"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 10,
+            "value": "arc42"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 17,
+            "value": "Java"
+          }
+        ],
+        "text": "InDesign, arc42, Java"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 8,
+            "value": "Dialogflow"
+          },
+          {
+            "end": 44,
+            "entity": "technology",
+            "start": 20,
+            "value": "Weiterbildungsmanagement"
+          }
+        ],
+        "text": "Kotlin, Dialogflow, Weiterbildungsmanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "LESS"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 6,
+            "value": "jQuery"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 14,
+            "value": "InVision"
+          }
+        ],
+        "text": "LESS, jQuery, InVision"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Requirements engineering"
+          },
+          {
+            "end": 42,
+            "entity": "technology",
+            "start": 26,
+            "value": "Integrationstest"
+          },
+          {
+            "end": 52,
+            "entity": "technology",
+            "start": 44,
+            "value": "InVision"
+          }
+        ],
+        "text": "Requirements engineering, Integrationstest, InVision"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Mocha"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "NOFS"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 13,
+            "value": "Android"
+          }
+        ],
+        "text": "Mocha, NOFS, Android"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "NoSQL"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 7,
+            "value": "Businessanalyse"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 24,
+            "value": "Watson"
+          }
+        ],
+        "text": "NoSQL, Businessanalyse, Watson"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Illustrator"
+          },
+          {
+            "end": 35,
+            "entity": "technology",
+            "start": 13,
+            "value": "Continuous Integration"
+          },
+          {
+            "end": 46,
+            "entity": "technology",
+            "start": 37,
+            "value": "Usability"
+          }
+        ],
+        "text": "Illustrator, Continuous Integration, Usability"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Swift"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 7,
+            "value": "Gantt"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 14,
+            "value": "End-to-End-Test"
+          }
+        ],
+        "text": "Swift, Gantt, End-to-End-Test"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Projektplan"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 13,
+            "value": "Businessanalyse"
+          },
+          {
+            "end": 45,
+            "entity": "technology",
+            "start": 30,
+            "value": "Businessanalyse"
+          }
+        ],
+        "text": "Projektplan, Businessanalyse, Businessanalyse"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 0,
+            "value": "Natural Language Processing"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 29,
+            "value": "Scrum"
+          },
+          {
+            "end": 46,
+            "entity": "technology",
+            "start": 36,
+            "value": "Clustering"
+          }
+        ],
+        "text": "Natural Language Processing, Scrum, Clustering"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "technology",
+            "start": 0,
+            "value": "C#"
+          },
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 4,
+            "value": "NOFS"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 10,
+            "value": "Cucumber"
+          }
+        ],
+        "text": "C#, NOFS, Cucumber"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Unit Tests"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 20,
+            "value": "InVision"
+          }
+        ],
+        "text": "Unit Tests, Kotlin, InVision"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Build Tools"
+          },
+          {
+            "end": 37,
+            "entity": "technology",
+            "start": 13,
+            "value": "Requirements engineering"
+          },
+          {
+            "end": 45,
+            "entity": "technology",
+            "start": 39,
+            "value": "Office"
+          }
+        ],
+        "text": "Build Tools, Requirements engineering, Office"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Docker"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 8,
+            "value": "Continuous Integration"
+          },
+          {
+            "end": 41,
+            "entity": "technology",
+            "start": 32,
+            "value": "Usability"
+          }
+        ],
+        "text": "Docker, Continuous Integration, Usability"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 7,
+            "value": "C"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 10,
+            "value": "Design Thinking"
+          }
+        ],
+        "text": "Scrum, C, Design Thinking"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kanban"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 8,
+            "value": "Prozessanalyse"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 24,
+            "value": "Swift"
+          }
+        ],
+        "text": "Kanban, Prozessanalyse, Swift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 0,
+            "value": "Softwarearchitektur"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 21,
+            "value": "jQuery"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 29,
+            "value": "Alexa"
+          }
+        ],
+        "text": "Softwarearchitektur, jQuery, Alexa"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Docker"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 8,
+            "value": "Powerpoint"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 20,
+            "value": "Rasa"
+          }
+        ],
+        "text": "Docker, Powerpoint, Rasa"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Android"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 9,
+            "value": "CouchDB"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 18,
+            "value": "Geschäftsmodell"
+          }
+        ],
+        "text": "Android, CouchDB, Geschäftsmodell"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Word"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 6,
+            "value": "CouchDB"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 15,
+            "value": "HTML"
+          }
+        ],
+        "text": "Word, CouchDB, HTML"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Gantt"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 7,
+            "value": "Arbeitsrecht"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 21,
+            "value": "jQuery"
+          }
+        ],
+        "text": "Gantt, Arbeitsrecht, jQuery"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Controlling"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 13,
+            "value": "React"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 20,
+            "value": "C#"
+          }
+        ],
+        "text": "Controlling, React, C#"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "Vue"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 5,
+            "value": "PostgreSQL"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 17,
+            "value": "Build Tools"
+          }
+        ],
+        "text": "Vue, PostgreSQL, Build Tools"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Mocha"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 7,
+            "value": "Watson"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 15,
+            "value": "Geschäftsmodell"
+          }
+        ],
+        "text": "Mocha, Watson, Geschäftsmodell"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "TensorFlow"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 12,
+            "value": "Continuous Deployment"
+          },
+          {
+            "end": 46,
+            "entity": "technology",
+            "start": 35,
+            "value": "Controlling"
+          }
+        ],
+        "text": "TensorFlow, Continuous Deployment, Controlling"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "SASS"
+          },
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 6,
+            "value": "CSS"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 11,
+            "value": "Java"
+          }
+        ],
+        "text": "SASS, CSS, Java"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "LESS"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 6,
+            "value": "OpenShift"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 17,
+            "value": "Steuerrecht"
+          }
+        ],
+        "text": "LESS, OpenShift, Steuerrecht"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Prozessdesign"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 15,
+            "value": "Gantt"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 22,
+            "value": "Photo"
+          }
+        ],
+        "text": "Prozessdesign, Gantt, Photo"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 8,
+            "value": "Swift"
+          },
+          {
+            "end": 31,
+            "entity": "technology",
+            "start": 15,
+            "value": "Integrationstest"
+          }
+        ],
+        "text": "Kotlin, Swift, Integrationstest"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 0,
+            "value": "Softwarearchitektur"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 21,
+            "value": "Rasa"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 27,
+            "value": "Office"
+          }
+        ],
+        "text": "Softwarearchitektur, Rasa, Office"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Konfigurationsmanagement"
+          },
+          {
+            "end": 42,
+            "entity": "technology",
+            "start": 26,
+            "value": "Software Testing"
+          },
+          {
+            "end": 55,
+            "entity": "technology",
+            "start": 44,
+            "value": "Projektplan"
+          }
+        ],
+        "text": "Konfigurationsmanagement, Software Testing, Projektplan"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Geschäftsmodell"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 17,
+            "value": "Releasemanagement"
+          },
+          {
+            "end": 41,
+            "entity": "technology",
+            "start": 36,
+            "value": "NoSQL"
+          }
+        ],
+        "text": "Geschäftsmodell, Releasemanagement, NoSQL"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 12,
+            "value": "React"
+          },
+          {
+            "end": 43,
+            "entity": "technology",
+            "start": 19,
+            "value": "Sozialversicherungsrecht"
+          }
+        ],
+        "text": "Typescript, React, Sozialversicherungsrecht"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Rasa"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 6,
+            "value": "Testautomatisierung"
+          },
+          {
+            "end": 40,
+            "entity": "technology",
+            "start": 27,
+            "value": "Teststrategie"
+          }
+        ],
+        "text": "Rasa, Testautomatisierung, Teststrategie"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Chai"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 6,
+            "value": "Weiterbildungsmanagement"
+          },
+          {
+            "end": 40,
+            "entity": "technology",
+            "start": 32,
+            "value": "Cucumber"
+          }
+        ],
+        "text": "Chai, Weiterbildungsmanagement, Cucumber"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Accessibility"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 15,
+            "value": "C"
+          },
+          {
+            "end": 42,
+            "entity": "technology",
+            "start": 18,
+            "value": "Weiterbildungsmanagement"
+          }
+        ],
+        "text": "Accessibility, C, Weiterbildungsmanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Android"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 9,
+            "value": "Testautomatisierung"
+          },
+          {
+            "end": 39,
+            "entity": "technology",
+            "start": 30,
+            "value": "OpenShift"
+          }
+        ],
+        "text": "Android, Testautomatisierung, OpenShift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "NoSQL"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 7,
+            "value": "Javascript"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 19,
+            "value": "Cucumber"
+          }
+        ],
+        "text": "NoSQL, Javascript, Cucumber"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "NOFS"
+          },
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 6,
+            "value": "npm"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 11,
+            "value": "iOS"
+          }
+        ],
+        "text": "NOFS, npm, iOS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Geschäftsmodell"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 17,
+            "value": "arc42"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 24,
+            "value": "Java"
+          }
+        ],
+        "text": "Geschäftsmodell, arc42, Java"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "End-to-End-Test"
+          },
+          {
+            "end": 23,
+            "entity": "technology",
+            "start": 17,
+            "value": "Docker"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 25,
+            "value": "Swift"
+          }
+        ],
+        "text": "End-to-End-Test, Docker, Swift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "analysieren"
+          }
+        ],
+        "text": "analysieren"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "designen"
+          }
+        ],
+        "text": "designen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "entwickeln"
+          }
+        ],
+        "text": "entwickeln"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "coachen"
+          }
+        ],
+        "text": "coachen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "administrieren"
+          }
+        ],
+        "text": "administrieren"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Frontend",
+            "entity": "domain"
+          }
+        ],
+        "text": "Gibt es etwas im Bereich Frontend?"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 37,
+            "end": 56,
+            "value": "Backend-Entwicklung",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich könnte mir vorstellen im Bereich Backend-Entwicklung zu arbeiten"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Teilzeit"
+          }
+        ],
+        "text": "Teilzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Werkstudent"
+          }
+        ],
+        "text": "Werkstudent"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Vollzeit"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Praktikum"
+          }
+        ],
+        "text": "Praktikum"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "guten tag"
+      },
+      {
+        "intent": "greet",
+        "text": "Ahoi!"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Schönen guten Tag"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Praktika",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Welche Praktika habt ihr?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Welche Stellen für Praktikanten könnt ihr anbieten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Könnt ihr Stellen für Praktikanten anbieten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 29,
+            "end": 42,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Wie sieht es mit Stellen für Werkstudenten aus?"
+      },
+      {
+        "intent": "greet",
+        "text": "Moin!"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "Java",
+            "entity": "technology"
+          },
+          {
+            "start": 31,
+            "end": 41,
+            "value": "Entwickler",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich suche eine Stelle als Java Entwickler"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Welche Technologien gibt es?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Welche Technologien gibt es denn alles?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Welche Technologien stehen zur Auswahl?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Kannst du mir sagen, welche Technologien es gibt?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Zeige mir eine Übersicht aller Technologien"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was sind Technologien?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was sind mögliche Technologien?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Ich weiß nicht, was Technologien sind"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Können sie mir erklären, was Technologien sind?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Wie ist Technologie definiert?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was verstehen sie unter Technologie?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was verstehst du unter einer Technologie?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Ich bin mir nicht sicher was Technologien sind"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Ich weiß nicht genau, was sie mit Technologien meinen"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Ich bin mir nicht sicher, was Technologien bedeutet"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was wäre denn beispielsweise eine Technologie?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Können sie mir erklären, was sie mit \"Technologien\" meinen?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was sind denn bitte Technologien?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Wie ist Technologie definiert?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was ist eine Technologie bei ihnen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Welche Arbeitsplätze habt ihr zu vergeben?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Habt ihr Stellen zu vergeben?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Zeige mir Stellenangebote"
+      },
+      {
+        "intent": "find_job",
+        "text": "Zeig mir Stellenangebote"
+      },
+      {
+        "intent": "find_job",
+        "text": "Zeig mir bitte Stellenangebote"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich suche Arbeit"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich bin auf der Suche nach Arbeit"
+      },
+      {
+        "intent": "find_job",
+        "text": "Gibt es Stellen für mich?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Habt ihr Stellen für mich?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich brauche Hilfe bei der Arbeitssuche"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich brauche Hilfe bei der Stellensuche"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Hallo! Ich brauche Hilfe bei der Stellensuche"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich benötige bitte Hilfe bei der Stellensuche"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Hallo, welche Arbeitsplätze haben sie zu vergeben?"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Guten Tag. Welche Stellen haben sie zu vergeben?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Kannst du mir bei der Stellensuche helfen ?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Können Sie mir bei der Stellensuche helfen ?"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Guten Abend. Können Sie mir bei der Stellensuche helfen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Kannst du mir bei der Stellensuche behilflich sein?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Können Sie mir bitte bei der Stellensuche behilflich sein?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich möchte einen Arbeitsplatz bei euch"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Hallo, ich hätte gerne eine Stelle bei euch"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich hätte gerne eine Stelle in ihrem Unternehmen"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde gerne bei euch anfangen"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde gerne bei euch arbeiten"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Hi! Ich würde gerne bei euch arbeiten"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde mich gerne über Stellen informieren"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich informiere mich gerade über offene Stellen"
+      },
+      {
+        "intent": "find_job",
+        "text": "Ich würde mich gerne informieren, welche Jobs es in ihrem Unternehmen gibt"
+      },
+      {
+        "intent": "greet+find_job",
+        "text": "Guten Morgen, ich informiere mich gerade über offene Stellen"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja bitte"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja ok"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok"
+      },
+      {
+        "intent": "confirm",
+        "text": "Okay"
+      },
+      {
+        "intent": "confirm",
+        "text": "Sicher"
+      },
+      {
+        "intent": "confirm",
+        "text": "Na sicher"
+      },
+      {
+        "intent": "confirm",
+        "text": "Super"
+      },
+      {
+        "intent": "confirm",
+        "text": "Super!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Klasse!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das klingt gut"
+      },
+      {
+        "intent": "confirm",
+        "text": "Klingt gut"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok, los gehts"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok super"
+      },
+      {
+        "intent": "confirm",
+        "text": "oki doki"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja bitte!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja, bitte"
+      },
+      {
+        "intent": "confirm",
+        "text": "Nice"
+      },
+      {
+        "intent": "confirm",
+        "text": "Cool!"
+      },
+      {
+        "intent": "confirm",
+        "text": "cool"
+      },
+      {
+        "intent": "confirm",
+        "text": "Alles klar"
+      },
+      {
+        "intent": "confirm",
+        "text": "Alles klar!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok cool"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok, cool"
+      },
+      {
+        "intent": "confirm",
+        "text": "Auf jeden Fall"
+      },
+      {
+        "intent": "confirm",
+        "text": "Auf jeden Fall!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Oh, ok"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das wäre cool"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das wäre super"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das wäre cool!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das wäre super!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das wäre spitze!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das wäre spitze"
+      },
+      {
+        "intent": "confirm",
+        "text": "yay"
+      },
+      {
+        "intent": "confirm",
+        "text": "Wie cool!"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein"
+      },
+      {
+        "intent": "deny",
+        "text": "Definitiv nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Niemals"
+      },
+      {
+        "intent": "deny",
+        "text": "Absolut nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Ich glaube nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Ich glaub nicht!"
+      },
+      {
+        "intent": "deny",
+        "text": "Glaub nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Glaube nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein danke"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein, danke!"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein, eigentlich nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Nö"
+      },
+      {
+        "intent": "deny",
+        "text": "Nö!"
+      },
+      {
+        "intent": "deny",
+        "text": "nö danke"
+      },
+      {
+        "intent": "deny",
+        "text": "ne danke"
+      },
+      {
+        "intent": "deny",
+        "text": "Ich verzichte"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein!!!"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein, kannst du nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein kann ich nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "NEIN"
+      },
+      {
+        "intent": "deny",
+        "text": "nein"
+      },
+      {
+        "intent": "deny",
+        "text": "eher nicht"
+      },
+      {
+        "intent": "deny",
+        "text": "Nicht wirklich"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Danke"
+      },
+      {
+        "intent": "thankyou",
+        "text": "danke"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Dankeschön"
+      },
+      {
+        "intent": "thankyou",
+        "text": "dankeschön"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Vielen Dank"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Super, danke"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Ok danke"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Ich danke dir"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Danke dir"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Cool. Danke"
+      },
+      {
+        "intent": "thankyou",
+        "text": "wow danke"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Danke für die Hilfe"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Danke für den Vorschlag"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "SCRUM",
+            "entity": "technology"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Kanban",
+            "entity": "technology"
+          }
+        ],
+        "text": "SCRUM und Kanban"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Ich würde mich gerne initiativ bewerben"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Ich suche nach einer Möglichkeit mich initiativ zu bewerben"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Gibt es die Möglichkeit sich initiativ zu bewerben?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Initiativbewerbung"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Ist eine Initiativbewerbung möglich?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Ist eine Initiativbewerbung bei ihnen möglich?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Kann ich mich initiativ bewerben?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Kann ich mich initiativ bei ihnen bewerben?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Kann ich mich auch initiativ bewerben?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Wie sieht es mit einer Initiativbewerbung aus?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Ich will mich initiativ bewerben!"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Besteht die Möglichkeit einer Initiativbewerbung?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Besteht die Chance einer Initiativbewerbung?"
+      },
+      {
+        "intent": "ask_speculative_application",
+        "text": "Könnte ich mich auch initiativ bei Ihnen bewerben?"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Softwaretesting",
+            "entity": "technology"
+          },
+          {
+            "start": 20,
+            "end": 34,
+            "value": "Teststrategien",
+            "entity": "technology"
+          }
+        ],
+        "text": "Softwaretesting und Teststrategien"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Software-Testing",
+            "entity": "technology"
+          },
+          {
+            "start": 18,
+            "end": 32,
+            "value": "Teststrategien",
+            "entity": "technology"
+          },
+          {
+            "start": 37,
+            "end": 56,
+            "value": "Testautomatisierung",
+            "entity": "technology"
+          }
+        ],
+        "text": "Software-Testing, Teststrategien und Testautomatisierung"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Angular",
+            "entity": "technology"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "React",
+            "entity": "technology"
+          },
+          {
+            "start": 22,
+            "end": 32,
+            "value": "JavaScript",
+            "entity": "technology"
+          }
+        ],
+        "text": "Angular und React und JavaScript"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Chai",
+            "entity": "technology"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "Mocha",
+            "entity": "technology"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Cucumber",
+            "entity": "technology"
+          }
+        ],
+        "text": "Chai, Mocha und Cucumber"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "MongoDB",
+            "entity": "technology"
+          },
+          {
+            "start": 22,
+            "end": 39,
+            "value": "nosql",
+            "entity": "technology"
+          }
+        ],
+        "text": "MongoDB und allgemein NoSQL-Datenbanken"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "Java",
+            "entity": "technology"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Java EE",
+            "entity": "technology"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Spring",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich würde gerne Java, Java EE und Spring einsetzen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Javascript",
+            "entity": "technology"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "Typescript",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich will hauptsächlich Javascript und Typescript einsetzen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "NLU",
+            "entity": "technology"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "NLP",
+            "entity": "technology"
+          }
+        ],
+        "text": "Technologien aus dem Bereich NLU und NLP"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Android",
+            "entity": "technology"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "Kotlin",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich würde gerne Android Apps mit Kotlin programmieren "
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 47,
+            "end": 53,
+            "value": "Python",
+            "entity": "technology"
+          },
+          {
+            "start": 58,
+            "end": 59,
+            "value": "R",
+            "entity": "technology"
+          },
+          {
+            "start": 71,
+            "end": 87,
+            "value": "Machine Learning",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich könnte mir vorstellen mit Technologien wie Python und R im Bereich Machine Learning zu arbeiten"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "node.js",
+            "entity": "technology"
+          },
+          {
+            "start": 27,
+            "end": 30,
+            "value": "npm",
+            "entity": "technology"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "express",
+            "entity": "technology"
+          }
+        ],
+        "text": "Ich möchte mit node.js und npm und express arbeiten"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mobile",
+            "entity": "domain"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "fullstack",
+            "entity": "domain"
+          }
+        ],
+        "text": "Mobile oder Fullstack"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Docker",
+            "entity": "technology"
+          },
+          {
+            "start": 8,
+            "end": 17,
+            "value": "OpenShift",
+            "entity": "technology"
+          }
+        ],
+        "text": "Docker, OpenShift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Kubernetes",
+            "entity": "technology"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Docker",
+            "entity": "technology"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "Helm",
+            "entity": "technology"
+          }
+        ],
+        "text": "Kubernetes, Docker, Helm"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Photoshop",
+            "entity": "technology"
+          }
+        ],
+        "text": "Photoshop"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "angular",
+            "entity": "technology"
+          }
+        ],
+        "text": "Angular oder aehnliches"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kotlin",
+            "entity": "technology"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "android",
+            "entity": "technology"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "gradle",
+            "entity": "technology"
+          }
+        ],
+        "text": "Kotlin und Android und gradle"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mobile",
+            "entity": "domain"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "fullstack",
+            "entity": "domain"
+          }
+        ],
+        "text": "Mobile oder Fullstack"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mobile",
+            "entity": "domain"
+          }
+        ],
+        "text": "Mobile"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Na dann Projektmanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Teilzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Und Vollzeit?"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Swift",
+            "entity": "technology"
+          }
+        ],
+        "text": "Swift"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mobile",
+            "entity": "domain"
+          }
+        ],
+        "text": "mobile"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Java",
+            "entity": "technology"
+          }
+        ],
+        "text": "Java"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "personal",
+            "entity": "domain"
+          }
+        ],
+        "text": "HR"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Bewerbermanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "Bewerbermanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "teilzeit",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Teilzeit oder Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "designen",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Designer"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Photoshop",
+            "entity": "technology"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Illustrator",
+            "entity": "technology"
+          }
+        ],
+        "text": "Photoshop und Illustrator"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "designen",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich möchte gestalten"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sketch",
+            "entity": "technology"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "inVision",
+            "entity": "technology"
+          }
+        ],
+        "text": "Sketch und inVision"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "praktikum",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Als Praktikant"
+      },
+      {
+        "intent": "start_dialogue",
+        "text": "start dialogue"
+      },
+      {
+        "intent": "help",
+        "text": "Ich brauche Hilfe"
+      },
+      {
+        "intent": "help",
+        "text": "Hilfe"
+      },
+      {
+        "intent": "help",
+        "text": "Brauch Hilfe"
+      },
+      {
+        "intent": "help",
+        "text": "Hilfe!!!"
+      },
+      {
+        "intent": "help",
+        "text": "Kannst du mir helfen?"
+      },
+      {
+        "intent": "help",
+        "text": "Ich weiß nicht, was ich tun soll"
+      },
+      {
+        "intent": "help",
+        "text": "Ich weiß nicht weiter"
+      },
+      {
+        "intent": "help",
+        "text": "Ich weiß nicht, wie das geht"
+      },
+      {
+        "intent": "help",
+        "text": "Ich weiß nicht, wie das funktioniert"
+      },
+      {
+        "intent": "help",
+        "text": "Ich bräuchte bitte Hilfe"
+      },
+      {
+        "intent": "help",
+        "text": "Ich bräuchte bitte Hilfe dabei"
+      },
+      {
+        "intent": "help",
+        "text": "Help!"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "Das verstehe ich nicht"
+      },
+      {
+        "intent": "help",
+        "text": "Kann mir jemand helfen?"
+      },
+      {
+        "intent": "help",
+        "text": "Ich benötige Hilfe"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Technologien?"
+      },
+      {
+        "intent": "ask_for_technologies",
+        "text": "Was sollen Technologien sein?"
+      },
+      {
+        "intent": "confirm",
+        "text": "Klingt gut"
+      },
+      {
+        "intent": "confirm",
+        "text": "Gerne"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja gerne"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Keine Ahnung"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Weiß ich nicht"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Das weiß ich nicht"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Woher soll ich das wissen?"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Woher kann ich das wissen?"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Das kann ich nicht wissen"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Das kann ich doch nicht wissen"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Ich weiß es nicht"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Ich weiß das nicht"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Weiss ich nicht"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Puh, keine Ahnung"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Sorry, keine Ahnung"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Tut mir Leid, das weiß ich nicht"
+      },
+      {
+        "intent": "dontknow",
+        "text": "k.A."
+      },
+      {
+        "intent": "dontknow",
+        "text": "no idea"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Kein Plan"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschüss"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschau"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ciao"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschüss!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschüß"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bis bald"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Machs gut"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Auf wiedersehen"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byebye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ade"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Adieu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschuess"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "iOS-Entwickler",
+            "entity": "technology"
+          }
+        ],
+        "text": "Welche Stellen gibt es als iOS-Entwickler?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "DevOps",
+            "entity": "domain"
+          }
+        ],
+        "text": "Ich suche eine Stelle im Bereich DevOps"
+      },
+      {
+        "intent": "find_job",
+        "text": "Das ist schoen. Was gibt es denn fuer Stellen?"
+      },
+      {
+        "intent": "find_job",
+        "text": "Das ist schön. Was gibt es denn für Stellen?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "Android-Entwickler",
+            "entity": "technology"
+          }
+        ],
+        "text": "Suche Stelle als Android-Entwickler"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Ich möchte Werkstudent werden"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 40,
+            "end": 59,
+            "value": "Werkstudentenstelle",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Hallo, ich bin auf der Suche nach einer Werkstudentenstelle"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 38,
+            "end": 41,
+            "value": "iOS",
+            "entity": "technology"
+          }
+        ],
+        "text": "Hallo, könnt Ihr einen Technical Lead iOS gebrauchen?"
+      },
+      {
+        "intent": "greet+find_job",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Mobile",
+            "entity": "domain"
+          },
+          {
+            "start": 24,
+            "end": 34,
+            "value": "Entwickler",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Hallo ich möchte Mobile Entwickler werden"
+      },
+      {
+        "intent": "greet",
+        "text": "Servus"
+      },
+      {
+        "intent": "greet",
+        "text": "Servus!"
+      },
+      {
+        "intent": "greet",
+        "text": "Sers"
+      },
+      {
+        "intent": "greet",
+        "text": "Morgen!"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo!"
+      },
+      {
+        "intent": "greet",
+        "text": "Auch hallo!"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Morgen!"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "neuronale netze",
+            "entity": "technology"
+          }
+        ],
+        "text": "neuronale netze"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Neuronale Netze",
+            "entity": "technology"
+          }
+        ],
+        "text": "Neuronale Netze"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok, das klingt gut"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok klingt gut"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok das klingt gut"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ok, klingt gut!"
+      },
+      {
+        "intent": "confirm",
+        "text": "Okay das klingt gut"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "linux",
+            "entity": "technology"
+          }
+        ],
+        "text": "Linux"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "MacOS",
+            "entity": "technology"
+          }
+        ],
+        "text": "MacOS"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Windows",
+            "entity": "technology"
+          }
+        ],
+        "text": "Windows"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Windows",
+            "entity": "technology"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Linux",
+            "entity": "technology"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "macOS",
+            "entity": "technology"
+          }
+        ],
+        "text": "Windows, Linux oder macOS"
+      },
+      {
+        "intent": "dontknow",
+        "text": "egal"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Ist egal"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Das ist mir egal"
+      },
+      {
+        "intent": "dontknow",
+        "text": "das ist egal"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Das ist egal!"
+      },
+      {
+        "intent": "dontknow",
+        "text": "Egal!"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vollzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "teilzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "projektmanagement",
+            "entity": "technology"
+          }
+        ],
+        "text": "projektmanagement"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "coachen",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "coachen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "entwickeln",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich würde gerne entwickeln"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "coachen",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich will coachen"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Bitte"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "bitte bitte"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Gern"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Gern geschehen"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Kein Problem"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "no problem"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "no problemo"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "np"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Das hab ich gerne gemacht"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Das hab ich gerne für dich gemacht"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Bitte!"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "bitte!"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Bitte :)"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Gern!"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Kein Problem!"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Kein Problem :)"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "Bitte Bitte!"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "technology",
+        "elements": "project/data/nlu/technology.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "ios",
+        "synonyms": [
+          "IOS",
+          "ios-entwicklung",
+          "iOS-Entwicklung",
+          "iOS-Entwickler",
+          "iOS-Programmierung",
+          "iOS-Development",
+          "iOs-Apps",
+          "iOs-App",
+          "ios-apps",
+          "iOs-Applikationen"
+        ]
+      },
+      {
+        "value": "android",
+        "synonyms": [
+          "Android",
+          "Android-Entwicklung",
+          "android-entwicklung",
+          "Android-Programmierung",
+          "Android-Development",
+          "Android-Entwickler",
+          "Android-Apps",
+          "Android-App",
+          "Android-Applikationen"
+        ]
+      },
+      {
+        "value": "entwickeln",
+        "synonyms": [
+          "Software-Entwicklung",
+          "Entwicklung",
+          "entwicklung",
+          "Entwickeln",
+          "Entwickler",
+          "Entwicklerin",
+          "softwareentwickler",
+          "software-entwicklung",
+          "Softwareentwicklung",
+          "softwareentwicklung",
+          "software-entwickler",
+          "Softwareentwickler",
+          "Software-Entwickler",
+          "Softwareentwicklerin",
+          "softwareentwicklerin",
+          "Software-Entwicklerin",
+          "development",
+          "Development",
+          "Developments",
+          "developer",
+          "developerin",
+          "Programmierung",
+          "programmieren",
+          "Software Development"
+        ]
+      },
+      {
+        "value": "web",
+        "synonyms": [
+          "Webentwicklung",
+          "Web-Entwicklung",
+          "Webentwickler",
+          "Web-Entwickler",
+          "Webumgebung",
+          "Webumgebungen",
+          "webdevelopment",
+          "Webdevelopment"
+        ]
+      },
+      {
+        "value": "designen",
+        "synonyms": [
+          "Designen",
+          "Design",
+          "design",
+          "Gestaltung",
+          "gestalten",
+          "Designer"
+        ]
+      },
+      {
+        "value": "vollzeit",
+        "synonyms": [
+          "Vollzeit-Stellen",
+          "Vollzeit",
+          "ganztags"
+        ]
+      },
+      {
+        "value": "teilzeit",
+        "synonyms": [
+          "Teilzeit-Stellen",
+          "Teilzeit",
+          "halbtags"
+        ]
+      },
+      {
+        "value": "praktikum",
+        "synonyms": [
+          "Praktikanten",
+          "Praktikum",
+          "praktikanten",
+          "Praktikant",
+          "Praktikantin",
+          "Praktika",
+          "Pflichtpraktikum",
+          "PraktikantInnen",
+          "Praktikumsstelle",
+          "Praktikumsstellen",
+          "Praktikumsplatz",
+          "Praktikumsplätze"
+        ]
+      },
+      {
+        "value": "werkstudent",
+        "synonyms": [
+          "werkstudentin",
+          "Werkstudenten",
+          "werkstudenten",
+          "Werkstudent",
+          "Werkstudentin",
+          "Studenten",
+          "Student",
+          "Studentin",
+          "Werkstudentenstellen",
+          "Werkstudentenstelle"
+        ]
+      },
+      {
+        "value": "cui",
+        "synonyms": [
+          "CUI",
+          "Conversational User Interface",
+          "Conversational User Interfaces",
+          "Conversational Interface",
+          "Conversational Interfaces",
+          "Chatbot-Entwickler",
+          "Chatbot-Entwicklung",
+          "Chatbots",
+          "Sprachassistenten",
+          "Sprachassistent"
+        ]
+      },
+      {
+        "value": "machine learning",
+        "synonyms": [
+          "Künstliche Intelligenz",
+          "künstliche intelligenz",
+          "Machine Learning",
+          "Machine-Learning",
+          "KI",
+          "Maschinelles Lernen",
+          "maschinelles Lernen",
+          "AI",
+          "Artficial Intelligence",
+          "K.I.",
+          "A.I."
+        ]
+      },
+      {
+        "value": "personal",
+        "synonyms": [
+          "Personalwesen",
+          "Human Ressources",
+          "Human-Ressources-Bereich",
+          "HR",
+          "HR-Bereich",
+          "Personal"
+        ]
+      },
+      {
+        "value": "frontend",
+        "synonyms": [
+          "Frontend-Entwickler",
+          "Frontend-Entwicklung",
+          "Frontendentwicklung",
+          "Frontendentwickler",
+          "frontendentwicklung",
+          "frontendentwickler",
+          "Frontend-Bereich",
+          "Frontend",
+          "Frontends"
+        ]
+      },
+      {
+        "value": "fullstack",
+        "synonyms": [
+          "Fullstack-Entwickler",
+          "Fullstack-Entwicklung",
+          "Fullstackentwicklung",
+          "Fullstackentwickler",
+          "fullstackentwicklung",
+          "fullstackentwickler",
+          "Fullstack-Bereich",
+          "Fullstack",
+          "Fullstacks"
+        ]
+      },
+      {
+        "value": "backend",
+        "synonyms": [
+          "Backend-Entwickler",
+          "Backend-Entwicklung",
+          "Backendentwicklung",
+          "Backendentwickler",
+          "backendentwicklung",
+          "backendentwickler",
+          "Backend-Bereich",
+          "Backend",
+          "Backends"
+        ]
+      },
+      {
+        "value": "projektmanagement",
+        "synonyms": [
+          "Projektmanagement",
+          "Projekt-Management",
+          "Projektmanager",
+          "Projekt Manager",
+          "Projekt-Manager"
+        ]
+      },
+      {
+        "value": "finanzen",
+        "synonyms": [
+          "finance",
+          "Finanzen",
+          "Finanzwesen"
+        ]
+      },
+      {
+        "value": "nodejs",
+        "synonyms": [
+          "Node.js",
+          "node.js",
+          "node"
+        ]
+      },
+      {
+        "value": "vue",
+        "synonyms": [
+          "vue.js",
+          "vuejs"
+        ]
+      },
+      {
+        "value": "administrieren",
+        "synonyms": [
+          "Administrieren",
+          "Administration"
+        ]
+      },
+      {
+        "value": "coachen",
+        "synonyms": [
+          "Coachen",
+          "Coach",
+          "Coaching"
+        ]
+      },
+      {
+        "value": "analysieren",
+        "synonyms": [
+          "Analysieren",
+          "Analyse"
+        ]
+      },
+      {
+        "value": "mobile",
+        "synonyms": [
+          "Mobile",
+          "mobil",
+          "mobilen",
+          "mobiler"
+        ]
+      },
+      {
+        "value": "devops",
+        "synonyms": [
+          "DevOps"
+        ]
+      },
+      {
+        "value": "data science",
+        "synonyms": [
+          "datascience",
+          "Data Science",
+          "Datenwissenschaft",
+          "Data Scientist",
+          "datascientist"
+        ]
+      },
+      {
+        "value": "security",
+        "synonyms": [
+          "Security",
+          "sicherheit",
+          "Sicherheit"
+        ]
+      },
+      {
+        "value": "agile",
+        "synonyms": [
+          "agil",
+          "Agil",
+          "agilem",
+          "agiles"
+        ]
+      },
+      {
+        "value": "testing",
+        "synonyms": [
+          "testen",
+          "Testing",
+          "Testen",
+          "Tests"
+        ]
+      },
+      {
+        "value": "recht",
+        "synonyms": [
+          "Recht",
+          "Law"
+        ]
+      },
+      {
+        "value": "consulting",
+        "synonyms": [
+          "Consulting",
+          "Beratung",
+          "Beratertätigkeit"
+        ]
+      },
+      {
+        "value": "angular",
+        "synonyms": [
+          "Angular",
+          "AngularJS",
+          "Angular JS"
+        ]
+      },
+      {
+        "value": "react",
+        "synonyms": [
+          "ReactJS",
+          "React"
+        ]
+      },
+      {
+        "value": "jquery",
+        "synonyms": [
+          "jQuery",
+          "JQuery"
+        ]
+      },
+      {
+        "value": "npm",
+        "synonyms": [
+          "node package manager",
+          "Node Package Manager"
+        ]
+      },
+      {
+        "value": "build tools",
+        "synonyms": [
+          "buildtools",
+          "Webpack",
+          "Grunt",
+          "Gulp",
+          "Require.js",
+          "Brunch"
+        ]
+      },
+      {
+        "value": "Natural Language Understanding",
+        "synonyms": [
+          "NLU",
+          "nlu"
+        ]
+      },
+      {
+        "value": "Natural Language Processing",
+        "synonyms": [
+          "NLP",
+          "nlp"
+        ]
+      },
+      {
+        "value": "softwarearchitektur",
+        "synonyms": [
+          "Software Architektur",
+          "Software-Architektur",
+          "Architektur",
+          "Architektenrolle"
+        ]
+      },
+      {
+        "value": "arc42",
+        "synonyms": [
+          "arc"
+        ]
+      },
+      {
+        "value": "postgresql",
+        "synonyms": [
+          "postgres"
+        ]
+      },
+      {
+        "value": "couchdb",
+        "synonyms": [
+          "couch"
+        ]
+      },
+      {
+        "value": "verschlüsselung",
+        "synonyms": [
+          "Verschlüsselung",
+          "Verschlüsselungstechnologien",
+          "Verschlüsselungstechnologie",
+          "encryption"
+        ]
+      },
+      {
+        "value": "continuous integration",
+        "synonyms": [
+          "Continuous Integration",
+          "CI"
+        ]
+      },
+      {
+        "value": "continuous deployment",
+        "synonyms": [
+          "Continuous Deployment",
+          "CD"
+        ]
+      },
+      {
+        "value": "releasemanagement",
+        "synonyms": [
+          "Releasemanagement",
+          "Release-Management",
+          "Release Management"
+        ]
+      },
+      {
+        "value": "konfigurationsmanagement",
+        "synonyms": [
+          "Konfigurationsmanagement"
+        ]
+      },
+      {
+        "value": "softwaretesting",
+        "synonyms": [
+          "Softwaretesting",
+          "Software-Testing",
+          "Software Testing",
+          "Softwaretests",
+          "Softwaretest"
+        ]
+      },
+      {
+        "value": "teststrategie",
+        "synonyms": [
+          "Teststrategien",
+          "Teststrategie"
+        ]
+      },
+      {
+        "value": "unit test",
+        "synonyms": [
+          "unittests",
+          "Unittest",
+          "Unit-Test",
+          "Unittests",
+          "Unit-Tests",
+          "UnitTesting",
+          "Unit-Testing",
+          "unittesting"
+        ]
+      },
+      {
+        "value": "end-to-end test",
+        "synonyms": [
+          "end-to-end-test",
+          "End-to-End-Test",
+          "end to end test",
+          "End To End Test",
+          "end-to-end testing",
+          "end-to-end-testing",
+          "End-to-End-Testing",
+          "end to end testing",
+          "End To End Testing",
+          "end-to-end tests",
+          "end-to-end-tests",
+          "End-to-End-Tests",
+          "end to end tests",
+          "End To End Tests"
+        ]
+      },
+      {
+        "value": "design thinking",
+        "synonyms": [
+          "designthinking",
+          "Design thinking"
+        ]
+      },
+      {
+        "value": "geschäftsmodell",
+        "synonyms": [
+          "Geschäftsmodell",
+          "Geschäftsmodelle"
+        ]
+      },
+      {
+        "value": "projektplan",
+        "synonyms": [
+          "Projektplan",
+          "Projektpläne"
+        ]
+      },
+      {
+        "value": "gantt",
+        "synonyms": [
+          "Gantt-Diagramm",
+          "GANTT"
+        ]
+      },
+      {
+        "value": "requirements engineering",
+        "synonyms": [
+          "Anforderungsanalyse",
+          "Requirements Engineering",
+          "Requirement Engineering",
+          "requirement engineering",
+          "Anforderungsmanagement"
+        ]
+      },
+      {
+        "value": "workshop",
+        "synonyms": [
+          "Workshop",
+          "Workshops"
+        ]
+      },
+      {
+        "value": "mac os",
+        "synonyms": [
+          "macos",
+          "macOS",
+          "mac",
+          "Mac",
+          "MacOS"
+        ]
+      },
+      {
+        "value": "php",
+        "synonyms": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

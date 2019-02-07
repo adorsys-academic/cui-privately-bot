@@ -1,0 +1,150 @@
+angular
+java
+java ee
+spring
+kotlin
+android
+swift
+ios
+typescript
+javascript
+html
+css
+sass
+less
+react
+vue
+jquery
+nodejs
+npm
+python
+c
+php
+build tools
+c#
+Natural Language Understanding
+Natural Language Processing
+tensorflow
+scikit-learn
+rasa
+cui
+dialogflow
+alexa
+snips
+clustering
+watson
+azure
+deep learning
+k-nearest neighbours
+svm
+neuronale netze
+naive bayes
+R
+softwarearchitektur
+arc
+sql
+nosql
+mysql
+sqlite
+postgresql
+mongodb
+couchdb
+nofs
+realm
+couchbase
+verschlüsselung
+docker
+openshift
+continuous integration
+continuous deployment
+releasemanagement
+konfigurationsmanagement
+systemadministration
+systemintegration
+softwaretesting
+teststrategie
+testautomatisierung
+cucumber
+mocha
+chai
+supertest
+unit test
+integrationstest
+end-to-end test
+ui-test
+accessibility
+usability
+design thinking
+photoshop
+illustrator
+indesign
+sketch
+invison
+office
+word
+excel
+powerpoint
+prozessdesign
+prozessanalyse
+businessanalyse
+geschäftsmodell
+strategieberatung
+bewerbermanagement
+weiterbildungsmanagement
+personalverwaltung
+projektplan
+gantt
+requirements engineering
+projektmanagement
+controlling
+buchführung
+buchhaltung
+arbeitsrecht
+steuerrecht
+sozialversicherungsrecht
+workshop
+schulung
+scrum
+kanban
+jboss
+applikationsserver
+fehleranalyse
+rechenzentren
+middleware
+aws
+firebase
+rhel
+centos
+fedora
+delivery
+container
+lxc
+kubernetes
+helm
+ruby
+s3
+tomcat
+wildfly
+git
+scn
+versionskontrolle
+java ee
+jira
+gradle
+maven
+jenkins
+uml
+api-design
+rest
+graphql
+c++
+xml
+datensicherheit
+reporting
+kundenbeziehungen
+social networking
+business development
+express
+windows
+mac os
+linux

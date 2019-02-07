@@ -1,0 +1,12 @@
+action_endpoint:
+  url: <LINK_TO_RASA_CORE_SDK_COMPONENT>
+
+nlu:
+  url: <LINK_TO_NLU_COMPONENT>
+
+tracker_store:
+  store_type: mongod
+  url: mongodb://<MONGO_URL>
+  # db: rasa
+  # username: <USERNAME>
+  # password: <PASSWORD>
